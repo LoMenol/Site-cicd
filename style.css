@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Красивый современный градиент на фоне */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.status-badge {
+    display: inline-block;
+    background: #e6fffa;
+    color: #00a389;
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.8rem;
+    color: #1a202c;
+}
+
+.subtitle {
+    color: #718096;
+    margin-bottom: 30px;
+    font-size: 1.05rem;
+}
+
+.info-block {
+    background: #f7fafc;
+    border-left: 4px solid #667eea;
+    padding: 15px;
+    border-radius: 0 12px 12px 0;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    background: #5a67d8;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
